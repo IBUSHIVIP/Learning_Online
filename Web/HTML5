@@ -1,0 +1,69 @@
+# HTML5信息
+
+标签： 双标签 以及 单标签
+
+HTML5的DOCTYPE声明
+DOCTYPE是documenttype（文档类型）的缩写。<!DOCTYPE html>是H5的声明位于文档的最前面，处于标签之前。它是网页必备的组成部分，避免浏览器的怪异模式。
+
+html标签：<html></html>
+
+head标签：<head></head>
+
+body标签：<body></body>   展示的是用户直接看到的信息
+
+title标签：<title></title>   展示网页标题信息（有head标签肯定存在title标签）
+
+meta标签：<meta >  用来描述一个HTML网页文档的属性，关键词等。如charset = ” utf-8“
+
+标题-标签（双标签）：<h1> --> <h6>  属性：align（位置属性）
+
+段落-换行-水平线-标签：
+        段落：<p></p>
+        换行：（br>
+        水平线：<hr></hr>
+
+图片-标签：
+        <img src="" alt="" width="" height="">
+        src ：路径（绝对路径、相对路径、网络路径）
+
+超文本链接-标签：
+        <a href="" ></a>
+
+文本-标签：
+        <span>文本内容</span>
+
+有序列表-标签（双标签）：
+        <ol type="1/a/A/Ⅰ/i">
+                <li>1</li>
+                <li>2</li>
+        </ol>
+
+无序列表-标签（双标签）：
+        <ul type="">
+                <li>苹果</li>
+                <li>香蕉</li>
+                <li>虾皮</li>
+        </ul>
+        快捷键：ul>li*数量
+
+表格-标签：
+        <table>
+                <tr>行</tr>
+                <td>列</td>
+        </table>
+        快捷键：table>tr*行数>td（单元格）*列数
+        合并属性：colspan（水平合并）、rowspan（垂直合并）
+
+表单-：（交互功能）
+        <form action="url" method="get|post" name=""></form>
+        表单元素：表单标签（input）、表单域（）、表单按钮（button）
+
+块元素和行内元素：
+          块元素：块元素会在页面中独占一行（自上向下垂直排列）、可以设置width，height属性、一般块级元素可以包含行内元素和其他块级元素
+        内联元素：行内元素不会独占页面中的一行，只占自身的大小、行内元素设置width，height属性无效、一般内联元素包含内联元素不包含块级元素
+        常见块元素：div、form、h1~h6、hr、p、table、ul
+        常见内联元素：a、b、em、i、span、strong
+        行内块元素：button、img、input
+
+H5新增标签：
+        div：容器元素
